@@ -17,7 +17,10 @@ import java.util.*;
 public class CS106A_NumberToWords extends ConsoleProgram
 {
 	/** named constants */
-	String[] suffixArr = {"teen","hundred","thousand"};
+	private static final int BILLION = 1000000000;
+	private static final int MILLION = 1000000;
+	private static final int THOUSAND = 1000;
+	private static final int HUNDRED = 100;
 	
 	public void run()
 	{
@@ -108,9 +111,5 @@ public class CS106A_NumberToWords extends ConsoleProgram
 		return sb.toString();
 	}
 	
-	/** static variables */
-	private static final int BILLION = 1000000000;
-	private static final int MILLION = 1000000;
-	private static final int THOUSAND = 1000;
-	private static final int HUNDRED = 100;
+	/** instance variables */
 }
