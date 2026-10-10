@@ -8,7 +8,10 @@
  * 
  * Attributions:
  * Adapted from SergiuPlesco's github solution
- * after days of getting nowhere.
+ * after days of getting nowhere. But now uses 
+ * Eric Roberts' suggested switch method instead 
+ * of SergiuPlesco's enum approach.
+ * 
  */
 
 import acm.program.*;
