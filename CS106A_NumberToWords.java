@@ -5,6 +5,10 @@
  * input from the client and converts an integer  
  * into words. 
  * 
+ * 
+ * Attributions:
+ * Adapted from SergiuPlesco's github solution
+ * after days of getting nowhere.
  */
 
 import acm.program.*;
